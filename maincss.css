@@ -1,0 +1,138 @@
+body{
+    background-image: url("back.jpg");
+    background-size:auto;
+height: 70%;
+ width: 94%; 
+background-size:cover; 
+background-repeat: no-repeat;
+color: white;
+}
+body button{
+    cursor: pointer;
+}
+
+@keyframes example {
+    0%   {color: red;}
+    /* 25%  {color: yellow;} */
+    50%  {color: green;}
+    100% {color: red;}
+     /* from{color:red;}
+    to{color:green;}  */
+  }
+  
+  /* The element to apply the animation to */
+  #Winning_Streak {
+    animation-name: example;
+    animation-duration: 5s;
+    transition: ease-in-out;
+    animation-iteration-count: infinite;
+  
+  }
+
+
+#Heading{ 
+    width: 100%;
+    text-align: center;
+    /* margin-top: auto; */
+    font-size: 5vw;
+}
+#Score_container{
+    display: block;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+#Winning_Streak{
+    width: 100%;
+    font-size: 2vw;
+    text-align: center;
+}
+#Streak{
+    padding: 5%;
+}
+#Streak table{
+    width: 100%;
+    text-align:center;
+    font-size: 3vw;
+    border: solid 1px;
+}
+#DisplayNo{
+    display: flexbox;
+    font-size: 3vw;
+    align-items: center;
+    justify-content: center;
+    margin-left:5%;
+
+}
+#Spin{
+    padding: 10px;
+    border-radius: 100%;
+    color: white;
+    background-color:green;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+
+
+#Balance_container{
+    width: 90%;
+    display: flex;
+    justify-content:space-between;   
+    font-size: 3vw;  
+    margin-bottom: 5%;   
+    padding: 30px;    
+}
+
+#table_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.red{
+    color:white;
+    background-color: red;
+}
+.black{
+    color: white;
+    background-color: black;
+}
+ #MainTable {
+    border: 1px rgb(255, 255, 255) solid;
+    border-radius: 10% 0 0 10%;
+    background-color: rgb(42, 110, 42);
+    margin-left: 10%;
+    padding-top:20px ;
+    padding-left:20px ;
+    margin-bottom: 50px;
+}
+#MainTable td{
+    padding: 10px;
+    text-align: center;
+    color: white;
+} 
+#MainTable button{
+    color:white;
+    background-color: rgb(30, 153, 100);
+}
+#SpinNo{
+    padding-top: 40px;
+    padding-left: 60px;
+
+    font-size: 5vw;
+}
+#winningAmount {
+    padding-top: 40px;
+    font-size: 3vw;
+}
+#black{
+    background-color: black;
+    color: white;
+}
+#red{
+    background-color: red;
+    color: white;
+}
+#winningAmount{
+    color:green;
+}
